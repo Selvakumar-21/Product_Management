@@ -1,0 +1,15 @@
+create database product_management;
+
+use product_management;
+
+create table admin(user_name varchar(30),password varchar(20),phone_no int);
+
+create table product_info(product_id int,product_name varchar(40),product_color varchar(20),
+						  features varchar(50),cost int,offer int,emi_info varchar(30),delivery_
+						  cost varchar(20),quantity int,rating int, review varchar(50));
+						
+				
+create table customer_inf0(name varchar(30),age int,gender varchar(20),mobile_no int,address 
+						   varchar(30),district varchar(30),pincode int,state varchar(30),
+						   product_name varchar(30),order_date date,payment_method varchar(30));
+						   
